@@ -157,7 +157,7 @@
 - [IOC-016]: Launcher minimalista usado para mitigar Glance overlay
 
 11. RESUMEN IOCs PRINCIPALES
-- IOC-001 HOST longcheer: http://sh-16-52.rnd.longcheer.net - No aparece en WHOIS publico - Solo visible con Device Info HW app que usaste en diciembre - Requiere sin permisos excesivos muestra /vendor
+- IOC-001 HOST longcheer: http://sh-16-52.rnd.longcheer.net - No aparece en WHOIS publico - Solo visible con Device Info HW Requiere sin permisos excesivos muestra /vendor
 - IOC-002 BOARD lion + ums9230
 - IOC-003 BOOTLOADER lion-2026-03-18_LOCAL
 - IOC-004 CA Longcheer 2051
@@ -168,7 +168,7 @@
 - IOC-012 Glance Gesture sensor 24 Sprd wakeup always
 - IOC-014 Battery Cycle 2111->2193 desgaste por wakelocks
 - IOC-015 tun0 fd00:2:fd00:1:fd00:1:fd00:1/128 persistente incluso con WiFi Disconnected
-- IOC-016 Host no resoluble publicamente - quien hace whois de http://rnd.longcheer.net no encuentra nada porque es interno de Longcheer ODM
+- IOC-016 Host http://rnd.longcheer.net 
 
 ## Other Devices
 APP.VERSION : 1.34.1-fdroid
