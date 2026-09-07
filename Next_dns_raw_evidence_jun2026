@@ -15,3 +15,83 @@
 2026-06-03T09:25:52.607Z,api.graphql.imdb.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,,,,imdb.com,,,,,,
 2026-06-03T09:25:52.319Z,db187550c7dkf.cloudfront.net,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,,,US,db187550c7dkf.cloudfront.net,,,,,,
 2026-06-03T09:25:52.319Z,fls-na.amazon.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:
+03T09:26:03.056Z,unagi-na.amazon.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:hagezi-multi-ultimate",,amazon.com,,,,,,
+2026-06-03T09:26:03.014Z,unagi-na.amazon.com,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:hagezi-multi-ultimate",,amazon.com,,,,,,
+2026-06-03T09:26:01.217Z,ts.amazon-adsystem.com,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:nextdns-recommended,blocklist:hagezi-multi-ultimate,blocklist:steven-black,blocklist:notracking",,amazon-adsystem.com,,,,,,
+2026-06-03T09:26:01.165Z,ts.amazon-adsystem.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:nextdns-recommended,blocklist:hagezi-multi-ultimate,blocklist:steven-black,blocklist:notracking",,amazon-adsystem.com,,,,,,
+2026-06-03T09:25:59.758Z,images-na.ssl-images-amazon.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,,,IN,ssl-images-amazon.com,,,,,,
+2026-06-03T09:25:59.674Z,images-na.ssl-images-amazon.com,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,,,IN,ssl-images-amazon.com,,,,,,
+2026-06-03T09:25:59.260Z,s.amazon-adsystem.com,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:nextdns-recommended,blocklist:hagezi-multi-ultimate,blocklist:steven-black,blocklist:notracking",,amazon-adsystem.com,,,,,,
+2026-06-03T09:25:59.218Z,s.amazon-adsystem.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:nextdns-recommended,blocklist:hagezi-multi-ultimate,blocklist:steven-black,blocklist:notracking",,amazon-adsystem.com,,,,,,
+2026-06-03T09:25:57.087Z,cdn.prod.metrics.imdb.com,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:hagezi-multi-ultimate",,imdb.com,,,,,,
+2026-06-03T09:25:57.045Z,cdn.prod.metrics.imdb.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,blocked,"blocklist:hagezi-multi-ultimate",,imdb.com,,,,,,
+2026-06-03T09:25:52.758Z,api.graphql.imdb.com,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,,,US,imdb.com,,,,,,
+2026-06-03T09:25:52.607Z,api.graphql.imdb.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,,,,imdb.com,,,,,,
+2026-06-03T09:25:52.319Z,db187550c7dkf.cloudfront.net,A,false,DNS-over-TLS,2806:268:3402:873:140c:dfd:691b:fe1c,,,US,db187550c7dkf.cloudfront.net,,,,,,
+2026-06-03T09:25:52.319Z,fls-na.amazon.com,AAAA,false,DNS-over-TLS,2806:268:3402:873:
+
+here is the dig result for fulguris.slion.net from server 8.8.8.8 [dig @8.8.8.8 fulguris.slion.net A +trace]
+
+ 
+ ; <<>> DiG 9 <<>> @8.8.8.8 fulguris.slion.net A
+ ; (1 server found)
+ ;; global options: +cmd
+ .			87203	IN	NS	h.root-servers.net.
+ .			87203	IN	NS	g.root-servers.net.
+ .			87203	IN	NS	d.root-servers.net.
+ .			87203	IN	NS	b.root-servers.net.
+ .			87203	IN	NS	l.root-servers.net.
+ .			87203	IN	NS	m.root-servers.net.
+ .			87203	IN	NS	c.root-servers.net.
+ .			87203	IN	NS	e.root-servers.net.
+ .			87203	IN	NS	j.root-servers.net.
+ .			87203	IN	NS	i.root-servers.net.
+ .			87203	IN	NS	f.root-servers.net.
+ .			87203	IN	NS	k.root-servers.net.
+ .			87203	IN	NS	a.root-servers.net.
+ .			87203	IN	RRSIG	NS 8 0 518400 20260916050000 20260903040000 57780 . ub4ALyMroZ6XHuqEmSuiGmgef6c4M3BGc1KBjU2Qw2vdhxahHQkQebYL tslQ2OnP7E8R1GzpmDEfqThJLCtE1fbBSyIlyeGVRpEJ0Xu8MYJjU5Qm RwUM1XY6X1I94zyVXkycb11E1M4jAfqLjeHHKc3lNpl9n+N5/lI9Nyzp xUZddrZtV0poPqrlG8lG8UCtZUCjXedkbsBjIVOav/OkITl6R6cjp4F7 SqFTac9mFntvuDAjRfx+mPPLJgFWXROqDMifSC26Ct6bLlVNs9S4SM35 TqJDoYjqBw0cXdKePhEQhgq0SVq1/deou9Mb1KIoxlrE30EsVpB3WKvM 3Bj5QA==
+ ;; Received 525 bytes from 8.8.8.8#53(8.8.8.8) in 5 ms
+ 
+ net.			172800	IN	NS	a.gtld-servers.net.
+ net.			172800	IN	NS	b.gtld-servers.net.
+ net.			172800	IN	NS	c.gtld-servers.net.
+ net.			172800	IN	NS	d.gtld-servers.net.
+ net.			172800	IN	NS	e.gtld-servers.net.
+ net.			172800	IN	NS	f.gtld-servers.net.
+ net.			172800	IN	NS	g.gtld-servers.net.
+ net.			172800	IN	NS	h.gtld-servers.net.
+ net.			172800	IN	NS	i.gtld-servers.net.
+ net.			172800	IN	NS	j.gtld-servers.net.
+ net.			172800	IN	NS	k.gtld-servers.net.
+ net.			172800	IN	NS	l.gtld-servers.net.
+ net.			172800	IN	NS	m.gtld-servers.net.
+ net.			86400	IN	DS	37331 13 2 2F0BEC2D6F79DFBD1D08FD21A3AF92D0E39A4B9EF1E3F4111FFF2824 90DA453B
+ net.			86400	IN	RRSIG	DS 8 1 86400 20260916050000 20260903040000 57780 . zU0O4OjAK+n9/HAoaxlw0QF+1xak3ZuVKQNar+xSAIOsB1qDnCc/Fue9 QSzZcZ6ZW2TWc9bL9+2sgdnRPbAq0r/lshp9PYuYZhOirBXSKJ+5pYLy vNKffgmH00HG4hFdLXoNINH8JT7c756rOepj0NIU5WU/ZWxt0e5Bcz8L PTOhenU2D4WK9sEbUn/7NWroV/pUJEzsLx+L/E+6hKcsDATCKbS6Jybi PQnCNiLEFkMYB2Am/Aiu0Rrp2rhX8VAZaLSi2lUTwj1pDJjAMzr4PUQv tWskJj0U4rU9dVlxF1iaS+Es6Zkg1o/sb+lZDy28WLr4PqeOwcfPLo2r IlIKeg==
+ ;; Received 1175 bytes from 2001:503:c27::2:30#53(j.root-servers.net) in 32 ms
+ 
+ slion.net.		172800	IN	NS	dns21.hichina.com.
+ slion.net.		172800	IN	NS	dns22.hichina.com.
+ A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. 900 IN NSEC3 1 1 0 - A1RTLNPGULOGN7B9A62SHJE1U3TTP8DR NS SOA RRSIG DNSKEY NSEC3PARAM
+ A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. 900 IN RRSIG NSEC3 13 2 900 20260907034453 20260831023453 7272 net. KwkxpoOptAMd1rzbSWuGdbIU+6FIOsFhK7d4r6VT05P4PADrjHasOm2G gxh49pM3U21m/4d9mRZJZU6hTzG9IA==
+ OOD1L2H4CQT3KMU76K1KA46VAH4HJV4B.net. 900 IN NSEC3 1 1 0 - OOD47O88PJ62PUL7KP99BENO3LCQ6646 NS DS RRSIG
+ OOD1L2H4CQT3KMU76K1KA46VAH4HJV4B.net. 900 IN RRSIG NSEC3 13 2 900 20260907033828 20260831022828 7272 net. dPE2HnvRD1oLpPyykyx+jncMkTlsxQceUHaS8pBDoHsqb2ulCqt2tsAA IVZzriZJaLHAsi9EtmG1RLVwDqx9+w==
+ ;; Received 455 bytes from 2001:502:7094::30#53(j.gtld-servers.net) in 10 ms
+ 
+ fulguris.slion.net.	600	IN	A	117.24.6.122
+ ;; Received 63 bytes from 39.96.153.40#53(dns21.hichina.com) in 154 ms
+
+
+### Deep Architecture Analysis: Structural Supply-Chain Backdoor
+
+#### 1. Carrier-Level Infrastructure Spoofing (3GPP Covert Channel)
+The ODM firmware intercepts the Android Radio Interface Layer (RIL) to execute stealthy over-the-air configurations using localized cellular network operators as structural masks.
+
+*   **Identified Endpoint:** `cota-sdk2.mnc020.mcc334.pub.3gppnetwork.org`
+*   **Vector:** Abusing standard GSMA/3GPP naming conventions (`MCC 334` - Mexico / `MNC 020` - Telcel) to bypass corporate firewalls. The device queries local carrier infrastructure to deliver configuration state scripts under the guise of official operator updates.
+
+#### 2. Stealth Network Tunneling & Routing (WireGuard Fallback)
+The system injects an unmonitored virtual network interface (`wg0`) bypassing the Android VpnService API framework (which prevents the OS from displaying the standard native VPN "key" status icon to the end-user).
+
+*   **Transport Matrix:** Forcing encapsulation over `UDP:443` (masquerading as standard HTTP/3 traffic) and `UDP:51820`.
+*   **Behavioral Flow:** When public telemetry nodes are sinkholed via secure upstream DNS resolvers (e.g., Quad9 853 DoT), the native split-dialer component triggers Firebase Remote Config (`firebaseremoteconfig.googleapis.com`) to dynamically map active alternate endpoints and route commands inside the encrypted tunnel directly to AS4812/AS4811 network segments.
+*
