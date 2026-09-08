@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:versionCode="34"
+  android:versionName="14"
+  android:compileSdkVersion="34"
+  android:compileSdkVersionCodename="14"
+  package="com.android.cameraextensions"
+  platformBuildVersionCode="34"
+  platformBuildVersionName="14">
+  <uses-sdk
+    android:minSdkVersion="34"
+    android:targetSdkVersion="34">
+  </uses-sdk>
+  <queries>
+    <intent>
+      <action
+        android:name="androidx.camera.extensions.action.VENDOR_ACTION">
+      </action>
+    </intent>
+  </queries>
+  <application
+    android:label="@0x7f010000"
+    android:extractNativeLibs="true"
+    android:defaultToDeviceProtectedStorage="true"
+    android:directBootAware="true"
+    android:usesNonSdkApi="true">
+    <service
+      android:name=".CameraExtensionsProxyService"
+      android:exported="true"
+      android:visibleToInstantApps="true">
+    </service>
+    <uses-library
+      android:name="androidx.camera.extensions.impl"
+      android:required="false">
+    </uses-library>
+  </application>
+</manifest>
