@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+  android:versionCode="34"
+  android:versionName="14"
+  android:compileSdkVersion="34"
+  android:compileSdkVersionCodename="14"
+  coreApp="true"
+  package="com.android.proxyhandler"
+  platformBuildVersionCode="34"
+  platformBuildVersionName="14">
+  <uses-sdk
+    android:minSdkVersion="34"
+    android:targetSdkVersion="34">
+  </uses-sdk>
+  <uses-permission
+    android:name="android.permission.INTERNET">
+  </uses-permission>
+  <application
+    android:label="@0x7f010000"
+    android:process="com.android.proxyhandler"
+    android:extractNativeLibs="true"
+    android:defaultToDeviceProtectedStorage="true"
+    android:directBootAware="true"
+    android:usesNonSdkApi="true">
+    <service
+      android:name=".ProxyService"
+      android:exported="true">
+    </service>
+  </application>
+</manifest>
